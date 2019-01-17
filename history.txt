@@ -1,0 +1,357 @@
+    1  cd ~/Library/Preferences
+    2  ls -l CellProfilerLocal.cfg
+    3  mv~/Library/Preferences/CellProfilerLocal.cfg ~/CellProfilerLocal.cfg.BACKUP
+    4  java -version
+    5  cd/Librar/Java/JavaVirtualMachines
+    6  sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin 
+    7  sudo rm -fr /Library/Java/JavaVirtualMachines/jdk-9.jdk/
+    8  % java -version
+    9  /Library/Java/JavaVirtualMachines
+   10  java -version
+   11  rm -rf jdk-9.1.2.1.jdk
+   12  java -version
+   13  rm -rf jdk-9.0.1+11
+   14  java -version
+   15  export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+   16  java -version
+   17  conda install -c bioconda salmon 
+   18  conda config --append channels conda-forge
+   19  conda install -c bioconda salmon 
+   20  sudo apt-get install r-base-dev
+   21  ssh ew2579_G4017@156.145.28.97
+   22  ssh ew2579_G4017@156.145.28.97
+   23  ssh ew2579_G4017@156.145.28.97
+   24  ssh ew2579_G4017@156.145.28.97
+   25  cd 
+   26  tar xvfz tophat-2.0.0.Linux_x86_64.tar.gz
+   27  cd ~/bin
+   28  ln -s ~/tophat-2.0.0.Linux_x86_64/tophat2 
+   29  echo $SHELL
+   30  pwd
+   31  cd samtools-1.x
+   32  cd samtools-1.9
+   33  pwd
+   34  cd /Users/ericawolin/Downloads/samtools-1.9
+   35  ./configure --prefix=/where/to/install
+   36  make
+   37  make install
+   38  sudo make install
+   39  export PATH=/where/to/install/bin:$PATH 
+   40  cd /Users/ericawolin/Downloads/PROGRAMNAMEHERE
+   41  cd /Users/ericawolin/Downloads/bcftools-1.9
+   42  ./configure --prefix=where/to/install
+   43  ./configure --prefix=/where/to/install
+   44  make
+   45  sudo make install
+   46  cd /Users/ericawolin/Downloads/htslib-1.9
+   47  ./configure --prefix=/where/to/install
+   48  make
+   49  sudo make install
+   50  man sudo
+   51  cd /Users/ericawolin/Downloads/bowtie2-2.3.4.3-macos-x86_64
+   52  ./configure --prefix=/where/to/install
+   53  ssh ew2579_G4017@156.145.28.97
+   54  cd samtools-1.9
+   55  ./configure --prefix=/where/to/install
+   56  pwd
+   57  cd /Users/ericawolin/bin
+   58  ls -l
+   59  echo $PATH
+   60  export 
+   61  export BT2.Home=/export/Users/ericawolin/bin/bowtie2-2.3.4.3
+   62  BT2.Home=/export/Users/ericawolin/bin/bowtie2-2.3.4.3
+   63  export BT2.Home=/Users/ericawolin/bin/bowtie2-2.3.4.3
+   64  BT2.Home=/Users/ericawolin/bin/bowtie2-2.3.4.3
+   65  pwd
+   66  export BT2.Home=/Users/ericawolin/bin/bowtie2-2.3.4.3
+   67  export $BT2.Home=/Users/ericawolin/bin/bowtie2-2.3.4.3
+   68  export $BT2_Home=/Users/ericawolin/bin/bowtie2-2.3.4.3
+   69  export $BT2_Home=/export/Users/ericawolin/bin/bowtie2-2.3.4.3
+   70  export BT2_Home=/export/Users/ericawolin/bin/bowtie2-2.3.4.3
+   71  echo $BT2_HOME
+   72  echo $BT2_Home
+   73  print PATH
+   74  print $PATH
+   75  $ printf "%s\n" $PATH
+   76  export BT2_Home=/export/Users/ericawolin/bin/bowtie2-2.3.4.3
+   77  echo
+   78  echo $BT2_Home
+   79  export BT2_Home=/export/Users/ericawolin/bin/bowtie2-2.3.4.3
+   80  echo $BT2_Home
+   81  emacs .bashrc
+   82  bowtie2
+   83  export BT2_Home=/export/Users/ericawolin/bin/bowtie2-2.3.4.3
+   84  echo $BT2_Home
+   85  samtools
+   86  bowtie2-build $BT2_Home/example/reference/lambda_virus.fa lambda_virus
+   87  echo $BT2_Home
+   88  bowtie2-build $BT2_Home/example/reference/lambda_virus.fa 
+   89  bowtie2-build $BT2_Home/example/reference/lambda_virus.fa lambda_virus
+   90  cd /Users/ericawolin/bin/bowtie2-2.3.4.3
+   91  ls -l
+   92  cd ./example/reference
+   93  ls -l
+   94  bowtie2-build $BT2_Home/example/reference/lambda_virus.fa
+   95  bowtie2-build $BT2_Home/example/reference/lambda_virus.fa lambda_virus
+   96  echo $BT2_Home
+   97  bowtie2-build /Users/ericawolin/bin/bowtie2-2.3.4.3/example/reference/lambda_virus.fa lambda_virus
+   98  ls -l
+   99  cd
+  100  bowtie2 -x lambda_virus -U /Users/ericawolin/bin/bowtie2-2.3.4.3/example/reads/reads_1.fq -S eg1.sam
+  101  bowtie2-build /Users/ericawolin/bin/bowtie2-2.3.4.3/example/reference/lambda_virus.fa lambda_virus
+  102  bowtie2 -x lambda_virus -U /Users/ericawolin/bin/bowtie2-2.3.4.3/example/reads/reads_1.fq -S eg1.sam
+  103  head eg1.sam
+  104  samtools faidx examples/ex1.fa
+  105  cd /Users/ericawolin/bin/samtools-1.9
+  106  cd /Users/ericawolin/bin/bowtie2-2.3.4.3/samtools-1.9
+  107  samtools faidx examples/ex1.fa
+  108  samtools import examples/ex1.fa.fai examples/ex1.sam/gz ex1.bam
+  109  ls -l
+  110  mv /Users/ericawolin/bin/bowtie2-2.3.4.3/samtools-1.9 /Users/ericawolin/bin/bowtie2-2.3.4.3
+  111  mv /Users/ericawolin/bin/bowtie2-2.3.4.3/samtools-1.9 /Users/ericawolin/bin/
+  112  samtools faidx examples/ex1.fa
+  113  samtools import examples/ex1.fa.fai examples/ex1.sam/gz ex1.bam
+  114  ls -l
+  115  cd ./examples
+  116  ls -l
+  117  echo $PATH
+  118  samtools
+  119  echo $PATH
+  120  PATH=/Users/ericawolin/bin/samtools-1.9:/Users/ericawolin/bin/bowtie2-2.3.4.3:/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+  121  echo $PATH
+  122  screen -S test
+  123  screen -ls
+  124  screen -r test
+  125  screen -X -S test quit
+  126  screen -ls
+  127  wget
+  128  wget --help
+  129  cd /Users/ericawolin/bin
+  130  $ wget https://github.com/arq5x/bedtools2/releases/download/v2.25.0/bedtools-2.25.0.tar.gz
+  131  $ wget https://github.com/arq5x/bedtools2/releases/download/v2.25.0/bedtools-2.25.0.tar.gz
+  132  wget -h
+  133  $ wget https://github.com/arq5x/bedtools2/releases/download/v2.25.0/bedtools-2.25.0.tar.gz
+  134  find / -name wget -print
+  135  /Users/ericawolin/Downloads/tophat-master\ 2/INSTALL ; exit;
+  136  /Users/ericawolin/Downloads/tophat-master\ 2/README ; exit;
+  137  tar -xvzf BBMap_38.36.tar.gz
+  138  cd downloads
+  139  tar -xvzf BBMap_38.36.tar.gz
+  140  cd
+  141  tar -xvzf BBMap_38.36.tar.gz
+  142  tar -xvzf BBMap_38.26.tar.gz
+  143  tar xvzf BBMap_38.26.tar.gz
+  144  wget sourceforge.net/projects/bbmap/BBMap_38.26.tar.gz
+  145  wget https://sourceforge.net/projects/bbmap/BBMap_38.26.tar.gz
+  146  wget https://sourceforge.net/projects/bbmap/files/BBMap_38.26.tar.gz
+  147  tar -xvzf BBMap_38.26.tar.gz
+  148  cd /Users/ericawolin/bbmap
+  149  cd
+  150  mv /Users/ericawolin/bbmap/ /Users/ericawolin/bin/
+  151  cd ~/bin
+  152  ls -l
+  153  cd ~/bbmap
+  154  cd /Users/ericawolin/bin/bbmap
+  155  ls -l
+  156  echo $PATH
+  157  PATH=/Users/ericawolin/bin/samtools-1.9:/Users/ericawolin/bin/bowtie2-2.3.4.3:/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/ericawolin/bin/bbmap
+  158  echo $PATH
+  159  echo $PATH
+  160  ~/.bashrc
+  161  ~/.bash_profile
+  162  cd
+  163  nano ~/.bash_profile
+  164  echo $PATH
+  165  nano ~/.bash_profile
+  166  echo $PATH
+  167  cd bbmap/
+  168  cd Users/ericawolin/bin/bbmap
+  169  cd /Users/ericawolin/bin/bbmap
+  170  pwd
+  171  echo 'export PATH="$PATH:/Users/ericawolin/bin/bbmap"/ >> ~/.bash_profile
+  172  source ~/.bash_profile
+  173  echo $PATH
+  174  source ~/.bash_profile
+  175  echo $PATH
+  176  open ~/. bash_profile
+  177  touch ~./bash_profile
+  178  nano ~/.bash_profile
+  179  echo $PATH
+  180  source $PATH
+  181  nano ~/.bash_profile
+  182  echo $PATH
+  183  bbmap
+  184  bowtie
+  185  bowtie2
+  186  cd /Users/ericawolin/bin/bbmap
+  187  ls -l
+  188  cd
+  189  vim ~/. bash_profile
+  190  echo $PATH
+  191  samtools
+  192  bbmap
+  193  /Users/ericawolin/bin/bbmap/stats.sh in=/Users/ericawolin/bin/bbmap/resources/phix174.ill.ref.fa.gz
+  194  /Users/ericawolin/bin/bbmap/stats.sh in=/Users/ericawolin/bin/bbmap/resources/phix174.ill_ref.fa.gz
+  195  Users/ericawolin/bin/bbmap/stats.sh in=/Users/ericawolin/bin/bbmap/resources/phix174_ill.ref.fa.gz
+  196  /Users/ericawolin/bin/bbmap/stats.sh in=/Users/ericawolin/bin/bbmap/resources/phix174_ill.ref.fa.gz
+  197  cd /Users/ericawolin/bin/bbmap
+  198  ls -l
+  199  ls -l
+  200  python3 /Users/ericawolin/PycharmProjects/01_hello_world
+  201  python3 /Users/ericawolin/PycharmProjects/01_hello_world/program.py
+  202  cd
+  203  pwd
+  204  ls -F
+  205  man ls
+  206  ls -a
+  207  ls -l
+  208  pwd
+  209  cd Desktop/
+  210  pwd
+  211  cd /
+  212  ls
+  213  cd ericawolin/
+  214  cd
+  215  pwd
+  216  cd
+  217  cd Desktop/
+  218  ls -a
+  219  ls ./
+  220  ls ../
+  221  cd
+  222  ls -a
+  223  cd bin/
+  224  ls
+  225  cd /bin
+  226  ls
+  227  cd ..
+  228  pwd
+  229  cd
+  230  find data-shell.zip
+  231  cd Desktop/
+  232  find data-shell.zip
+  233  cd
+  234  cd /data-shell
+  235  pwd
+  236  cd Desktop/data-shell/
+  237  pwd
+  238  ls
+  239  mkdir thesis
+  240  ls -F
+  241  cd thesis/
+  242  pwd
+  243  ls -F
+  244  touch draft.txt
+  245  ls
+  246  nano
+  247  nano draft.txt
+  248  nano draft.txt
+  249  rm draft.txt
+  250  ls
+  251  pwd
+  252  touch draft.txt
+  253  rm -i draft.txt
+  254  cd ..
+  255  pwd
+  256  rmdir thesis/
+  257  ls
+  258  ls -F
+  259  mkdir thesis
+  260  cd thesis/
+  261  pwd
+  262  touch draft.txt
+  263  ls
+  264  cd ..
+  265  rmdir thesis/
+  266  rm -i thesis/draft.txt
+  267  pwd
+  268  cd thesis/
+  269  touch draft.txt
+  270  pwd
+  271  ls
+  272  rm draft.txt
+  273  touch file1.txt
+  274  touch file2.txt
+  275  touch file3.txt
+  276  ls
+  277  cd ..
+  278  pwd 
+  279  rm -r -i thesis/
+  280  ls
+  281  mkdir thesis
+  282  touch thesis/draft.txt
+  283  cd thesis/
+  284  lf
+  285  ls
+  286  cp draft.txt ../
+  287  ls 
+  288  cd ..
+  289  ls
+  290  rm -i draft.txt
+  291  cd thesis/
+  292  ls
+  293  cd ..
+  294  lf
+  295  ls
+  296  cd data/
+  297  ls
+  298  mkdir backup
+  299  ls
+  300  cp amino-acids.txt animals.txt morse.txt backup/
+  301  cd backup/
+  302  sl
+  303  ls
+  304  cd ..
+  305  rm -r -i backup/
+  306  ls
+  307  cp *.txt backup/
+  308  cd backup/
+  309  ls
+  310  rm -i *.txt
+  311  cd ..
+  312  ls
+  313  cp a*.txt backup/
+  314  cd backup
+  315  ls
+  316  cd ..
+  317  touch a.txt
+  318  touch b.txt
+  319  touch c.txt
+  320  ls
+  321  cp ?.txt backup/
+  322  cd backup/
+  323  ls
+  324  touch abc1.txt
+  325  touch abc2.txt
+  326  touch abc3.txt
+  327  cp abc?.txt ../
+  328  cd ..
+  329  ls
+  330  cd
+  331  pwd
+  332  cd Desktop/data-shell/
+  333  pwd
+  334  ls -F
+  335  cd molecules/
+  336  ls
+  337  wc *.pdb
+  338  wc -l *.pdb
+  339  wc -w *.pdb
+  340  wc -l *.pdb > lengths.txt
+  341  ls
+  342  head lengths.txt
+  343  cat lengths.txt
+  344  cat cubane.pdb
+  345  sort lengths.txt
+  346  sort -n lengths.txt
+  347  sort lenghts.txt > lengths_sorted.txt
+  348  ls
+  349  cat lengths_sorted.txt
+  350  sort lengths.txt > lengths_sorted.txt
+  351  cat lengths_sorted.txt 
+  352  cat lengths.txt
+  353  echo hello >> lengths.txt
+  354  cat lengths.txt
+  355  wc -w *.pdb >> lengths.txt
+  356  cat lengths.txt
+  357  history > ~/Desktop/history.txt
